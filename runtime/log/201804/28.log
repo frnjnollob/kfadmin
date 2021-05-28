@@ -1,0 +1,1382 @@
+---------------------------------------------------------------
+[ 2018-04-28T09:56:12+08:00 ] 127.0.0.1 GET /
+[ info ] 127.0.0.10/ [运行时间：0.040841s][吞吐率：24.49req/s] [内存消耗：1,077.77kb] [文件加载：34]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\www\controller\Index->index[ F:\kfadmin\app\www\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T09:56:15+08:00 ] 127.0.0.1 GET /index.php?s=Adminx/Index/index
+[ info ] 127.0.0.10/index.php?s=Adminx/Index/index [运行时间：1.072709s][吞吐率：0.93req/s] [内存消耗：2,064.09kb] [文件加载：57]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Adminx',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004063s ] mysql:host=127.0.0.1;dbname=admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pm_config` [ RunTime:0.958623s ]
+[ sql ] [ SQL ] SELECT * FROM `pm_config` WHERE  (  inc_type='basic' ) [ RunTime:0.030056s ]
+---------------------------------------------------------------
+[ 2018-04-28T09:56:16+08:00 ] 127.0.0.1 GET /index.php/adminx/login/index.html
+[ info ] 127.0.0.10/index.php/adminx/login/index.html [运行时间：0.041736s][吞吐率：23.96req/s] [内存消耗：1,518.27kb] [文件加载：50]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->index[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\kfadmin/app/adminx\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T09:56:16+08:00 ] 127.0.0.1 GET /index.php/adminx/login/verify.html
+[ info ] 127.0.0.10/index.php/adminx/login/verify.html [运行时间：0.055318s][吞吐率：18.08req/s] [内存消耗：1,392.46kb] [文件加载：46]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->verify[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T09:56:27+08:00 ] 127.0.0.1 POST /index.php/adminx/login/checklogin.html
+[ info ] 127.0.0.10/index.php/adminx/login/checklogin.html [运行时间：0.034242s][吞吐率：29.20req/s] [内存消耗：1,429.27kb] [文件加载：49]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '46',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'kf01888',
+  'checkcode' => 'vb67',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->checkLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'Org\Util\Rbac' not found[F:\kfadmin\app\adminx\controller\Login.php:50]
+---------------------------------------------------------------
+[ 2018-04-28T09:57:19+08:00 ] 127.0.0.1 POST /index.php/adminx/login/checklogin.html
+[ info ] 127.0.0.10/index.php/adminx/login/checklogin.html [运行时间：0.038269s][吞吐率：26.13req/s] [内存消耗：1,398.51kb] [文件加载：48]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '46',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'kf01888',
+  'checkcode' => 'vb67',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->checkLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T09:57:19+08:00 ] 127.0.0.1 GET /index.php?s=Adminx/Login/verify&id=1524880639358
+[ info ] 127.0.0.10/index.php?s=Adminx/Login/verify&id=1524880639358 [运行时间：0.049361s][吞吐率：20.26req/s] [内存消耗：1,395.86kb] [文件加载：46]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Adminx',
+    1 => 'Login',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1524880639358',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->verify[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T09:57:25+08:00 ] 127.0.0.1 POST /index.php/adminx/login/checklogin.html
+[ info ] 127.0.0.10/index.php/adminx/login/checklogin.html [运行时间：0.046666s][吞吐率：21.43req/s] [内存消耗：1,429.38kb] [文件加载：49]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '46',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'kf01888',
+  'checkcode' => 'jlzk',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->checkLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'Org\Util\Rbac' not found[F:\kfadmin\app\adminx\controller\Login.php:50]
+---------------------------------------------------------------
+[ 2018-04-28T10:13:56+08:00 ] 127.0.0.1 POST /index.php/adminx/login/checklogin.html
+[ info ] 127.0.0.10/index.php/adminx/login/checklogin.html [运行时间：0.039008s][吞吐率：25.64req/s] [内存消耗：1,378.99kb] [文件加载：48]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '46',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'kf01888',
+  'checkcode' => 'jlzk',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T10:14:01+08:00 ] 127.0.0.1 GET /index.php/adminx/login/index.html
+[ info ] 127.0.0.10/index.php/adminx/login/index.html [运行时间：0.052097s][吞吐率：19.20req/s] [内存消耗：1,519.13kb] [文件加载：50]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->index[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\kfadmin/app/adminx\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T10:14:01+08:00 ] 127.0.0.1 GET /index.php/adminx/login/verify.html
+[ info ] 127.0.0.10/index.php/adminx/login/verify.html [运行时间：0.065482s][吞吐率：15.27req/s] [内存消耗：1,393.84kb] [文件加载：46]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->verify[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T10:14:08+08:00 ] 127.0.0.1 POST /index.php/adminx/login/dologin.html
+[ info ] 127.0.0.10/index.php/adminx/login/dologin.html [运行时间：0.049116s][吞吐率：20.36req/s] [内存消耗：1,399.70kb] [文件加载：48]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '46',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'sdfsd',
+  'checkcode' => 'sdfsdf',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->doLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T10:14:08+08:00 ] 127.0.0.1 GET /index.php?s=Adminx/Login/verify&id=1524881648312
+[ info ] 127.0.0.10/index.php?s=Adminx/Login/verify&id=1524881648312 [运行时间：0.059612s][吞吐率：16.78req/s] [内存消耗：1,396.43kb] [文件加载：46]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Adminx',
+    1 => 'Login',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1524881648312',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->verify[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T10:14:18+08:00 ] 127.0.0.1 POST /index.php/adminx/login/dologin.html
+[ info ] 127.0.0.10/index.php/adminx/login/dologin.html [运行时间：0.044742s][吞吐率：22.35req/s] [内存消耗：1,429.80kb] [文件加载：49]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'sdfsd',
+  'checkcode' => 'nyrx',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->doLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\adminx\controller\Loader' not found[F:\kfadmin\app\adminx\controller\Login.php:53]
+---------------------------------------------------------------
+[ 2018-04-28T10:18:06+08:00 ] 127.0.0.1 POST /index.php/adminx/login/dologin.html
+[ info ] 127.0.0.10/index.php/adminx/login/dologin.html [运行时间：0.045377s][吞吐率：22.04req/s] [内存消耗：1,398.78kb] [文件加载：48]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'sdfsd',
+  'checkcode' => 'nyrx',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->doLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T10:18:06+08:00 ] 127.0.0.1 GET /index.php?s=Adminx/Login/verify&id=1524881886707
+[ info ] 127.0.0.10/index.php?s=Adminx/Login/verify&id=1524881886707 [运行时间：0.045154s][吞吐率：22.15req/s] [内存消耗：1,396.18kb] [文件加载：46]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Adminx',
+    1 => 'Login',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1524881886707',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->verify[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T10:18:15+08:00 ] 127.0.0.1 POST /index.php/adminx/login/dologin.html
+[ info ] 127.0.0.10/index.php/adminx/login/dologin.html [运行时间：0.063824s][吞吐率：15.67req/s] [内存消耗：2,188.59kb] [文件加载：53]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'sdfsd',
+  'checkcode' => 'ghjy',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->doLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T10:18:15+08:00 ] 127.0.0.1 GET /index.php?s=Adminx/Login/verify&id=1524881895759
+[ info ] 127.0.0.10/index.php?s=Adminx/Login/verify&id=1524881895759 [运行时间：0.047820s][吞吐率：20.91req/s] [内存消耗：1,396.18kb] [文件加载：46]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Adminx',
+    1 => 'Login',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1524881895759',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->verify[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T10:20:02+08:00 ] 127.0.0.1 POST /index.php/adminx/login/dologin.html
+[ info ] 127.0.0.10/index.php/adminx/login/dologin.html [运行时间：0.062279s][吞吐率：16.06req/s] [内存消耗：2,233.55kb] [文件加载：57]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'sdfsd',
+  'checkcode' => 'hg3v',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->doLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]类不存在:app\common\validate\User[F:\kfadmin\_core\library\think\Loader.php:529]
+---------------------------------------------------------------
+[ 2018-04-28T10:20:18+08:00 ] 127.0.0.1 POST /index.php/adminx/login/dologin.html
+[ info ] 127.0.0.10/index.php/adminx/login/dologin.html [运行时间：0.050169s][吞吐率：19.93req/s] [内存消耗：1,398.78kb] [文件加载：48]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'sdfsd',
+  'checkcode' => 'hg3v',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->doLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T10:20:18+08:00 ] 127.0.0.1 GET /index.php?s=Adminx/Login/verify&id=1524882018155
+[ info ] 127.0.0.10/index.php?s=Adminx/Login/verify&id=1524882018155 [运行时间：0.046437s][吞吐率：21.53req/s] [内存消耗：1,396.18kb] [文件加载：46]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Adminx',
+    1 => 'Login',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1524882018155',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->verify[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T10:20:24+08:00 ] 127.0.0.1 POST /index.php/adminx/login/dologin.html
+[ info ] 127.0.0.10/index.php/adminx/login/dologin.html [运行时间：0.065067s][吞吐率：15.37req/s] [内存消耗：2,233.52kb] [文件加载：57]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'sdfsd',
+  'checkcode' => 'fyvp',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->doLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]类不存在:app\common\validate\User[F:\kfadmin\_core\library\think\Loader.php:529]
+---------------------------------------------------------------
+[ 2018-04-28T10:21:15+08:00 ] 127.0.0.1 POST /index.php/adminx/login/dologin.html
+[ info ] 127.0.0.10/index.php/adminx/login/dologin.html [运行时间：0.050321s][吞吐率：19.87req/s] [内存消耗：2,233.14kb] [文件加载：57]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'sdfsd',
+  'checkcode' => 'fyvp',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->doLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]类不存在:app\common\validate\User[F:\kfadmin\_core\library\think\Loader.php:529]
+---------------------------------------------------------------
+[ 2018-04-28T10:47:02+08:00 ] 127.0.0.1 POST /index.php/adminx/login/dologin.html
+[ info ] 127.0.0.10/index.php/adminx/login/dologin.html [运行时间：0.047204s][吞吐率：21.18req/s] [内存消耗：2,193.95kb] [文件加载：54]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'sdfsd',
+  'checkcode' => 'fyvp',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->doLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T10:51:38+08:00 ] 127.0.0.1 POST /index.php/adminx/login/dologin.html
+[ info ] 127.0.0.10/index.php/adminx/login/dologin.html [运行时间：0.065184s][吞吐率：15.34req/s] [内存消耗：2,241.28kb] [文件加载：59]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'sdfsd',
+  'checkcode' => 'fyvp',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->doLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->error[F:\kfadmin\_core\library\think\db\Query.php:94]
+---------------------------------------------------------------
+[ 2018-04-28T10:54:18+08:00 ] 127.0.0.1 POST /index.php/adminx/login/dologin.html
+[ info ] 127.0.0.10/index.php/adminx/login/dologin.html [运行时间：0.041459s][吞吐率：24.12req/s] [内存消耗：1,431.60kb] [文件加载：50]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'sdfsd',
+  'checkcode' => 'fyvp',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->doLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ''账户或密码错误'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '{' or '$'[F:\kfadmin\app\adminx\model\User.php:27]
+---------------------------------------------------------------
+[ 2018-04-28T10:54:35+08:00 ] 127.0.0.1 POST /index.php/adminx/login/dologin.html
+[ info ] 127.0.0.10/index.php/adminx/login/dologin.html [运行时间：0.149784s][吞吐率：6.68req/s] [内存消耗：2,331.73kb] [文件加载：61]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'sdfsd',
+  'checkcode' => 'fyvp',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->doLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002877s ] mysql:host=127.0.0.1;dbname=admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pm_user` [ RunTime:0.064634s ]
+[ sql ] [ SQL ] SELECT * FROM `pm_user` WHERE  `username` = 'admin'  AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1 [ RunTime:0.025551s ]
+[ error ] [8]Array to string conversion[F:\kfadmin\app\adminx\controller\Login.php:55]
+---------------------------------------------------------------
+[ 2018-04-28T10:55:26+08:00 ] 127.0.0.1 POST /index.php/adminx/login/dologin.html
+[ info ] 127.0.0.10/index.php/adminx/login/dologin.html [运行时间：0.076293s][吞吐率：13.11req/s] [内存消耗：2,282.08kb] [文件加载：56]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'sdfsd',
+  'checkcode' => 'fyvp',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->doLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001073s ] mysql:host=127.0.0.1;dbname=admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pm_user` [ RunTime:0.016027s ]
+[ sql ] [ SQL ] SELECT * FROM `pm_user` WHERE  `username` = 'admin'  AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1 [ RunTime:0.000656s ]
+---------------------------------------------------------------
+[ 2018-04-28T10:56:13+08:00 ] 127.0.0.1 POST /index.php/adminx/login/dologin.html
+[ info ] 127.0.0.10/index.php/adminx/login/dologin.html [运行时间：0.074722s][吞吐率：13.38req/s] [内存消耗：2,297.57kb] [文件加载：59]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'sdfsd',
+  'checkcode' => 'fyvp',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->doLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001163s ] mysql:host=127.0.0.1;dbname=admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pm_user` [ RunTime:0.016559s ]
+[ sql ] [ SQL ] SELECT * FROM `pm_user` WHERE  `username` = 'admin'  AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1 [ RunTime:0.000844s ]
+---------------------------------------------------------------
+[ 2018-04-28T10:56:13+08:00 ] 127.0.0.1 GET /index.php?s=Adminx/Login/verify&id=1524884173778
+[ info ] 127.0.0.10/index.php?s=Adminx/Login/verify&id=1524884173778 [运行时间：0.051549s][吞吐率：19.40req/s] [内存消耗：1,398.21kb] [文件加载：47]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Adminx',
+    1 => 'Login',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1524884173778',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->verify[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T10:56:23+08:00 ] 127.0.0.1 POST /index.php/adminx/login/dologin.html
+[ info ] 127.0.0.10/index.php/adminx/login/dologin.html [运行时间：0.089978s][吞吐率：11.11req/s] [内存消耗：2,297.96kb] [文件加载：59]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '46',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'kf01888',
+  'checkcode' => '7aze',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->doLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000966s ] mysql:host=127.0.0.1;dbname=admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pm_user` [ RunTime:0.017673s ]
+[ sql ] [ SQL ] SELECT * FROM `pm_user` WHERE  `username` = 'admin'  AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1 [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[ 2018-04-28T10:56:24+08:00 ] 127.0.0.1 GET /index.php?s=Adminx/Login/verify&id=1524884183961
+[ info ] 127.0.0.10/index.php?s=Adminx/Login/verify&id=1524884183961 [运行时间：0.042532s][吞吐率：23.51req/s] [内存消耗：1,398.21kb] [文件加载：47]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Adminx',
+    1 => 'Login',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1524884183961',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->verify[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T10:56:52+08:00 ] 127.0.0.1 POST /index.php/adminx/login/dologin.html
+[ info ] 127.0.0.10/index.php/adminx/login/dologin.html [运行时间：0.085077s][吞吐率：11.75req/s] [内存消耗：2,284.58kb] [文件加载：56]
+[ info ] [ LANG ] F:\kfadmin\_core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'adminx',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5j04u2qbi7qvu8gp36bpdbptq1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.10/index.php/adminx/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '46',
+  'connection' => 'close',
+  'host' => '127.0.0.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'kf01888',
+  'checkcode' => '7aze',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\adminx\controller\Login->doLogin[ F:\kfadmin\app\adminx\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011237s ] mysql:host=127.0.0.1;dbname=admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pm_user` [ RunTime:0.017357s ]
+[ sql ] [ SQL ] SELECT * FROM `pm_user` WHERE  `username` = 'admin'  AND `password` = '64def183c8846acf3f9e13799e627a17' LIMIT 1 [ RunTime:0.000751s ]

@@ -3,6 +3,7 @@ namespace app\adminx\controller;
 use app\common\controller\Base;
 
 use think\Session;
+use think\Loader;
 
 class Login extends Base {
 
@@ -25,7 +26,7 @@ class Login extends Base {
         return $captcha->entry();
     }
 
-	public function checkLogin() {
+	public function doLogin() {
 		$username = input('post.username');
         $password = input('post.password');
         $checkcode = input('post.checkcode');
@@ -42,9 +43,19 @@ class Login extends Base {
 
         $check = $this->validate(['验证码'=>$checkcode],['验证码'=>'require|captcha']);    
         if ($check!=1) {
-            $this->error($check);
+            //$this->error($check);
         }
 
+        $loginData = array(
+            'username'=>$username,
+            'password'=>$password
+        );
+        
+        $res = Loader::model('User')->login( $loginData );
+        if ($res['code'] !== 1) {
+            return $this->error( $res['msg'] );
+        }
+        die;
         //生成认证条件
         $map['username'] = $username;
         $authInfo = \Org\Util\Rbac::authenticate($map);
