@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:43:"F:\kfadmin/app/adminx\view\login\index.html";i:1524880930;s:38:"F:\kfadmin\app\adminx\view\layout.html";i:1524874293;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:43:"I:\kfadmin/app/adminx\view\login\index.html";i:1524920286;s:38:"I:\kfadmin\app\adminx\view\layout.html";i:1524813942;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>

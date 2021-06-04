@@ -1,7 +1,7 @@
 <?php
 namespace app\adminx\controller;
 
-class Index extends Admin {
+class User extends Admin {
 
     public function index(){
     	return view();
