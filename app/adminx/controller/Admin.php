@@ -35,4 +35,11 @@ class Admin extends Base {
 		}
 		return false;
 	}
+
+	public function return_json($results){
+        return json_encode(array(
+                'status'=>1,
+                'results'=>$results
+            ));
+    }
 }
